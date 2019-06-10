@@ -51,11 +51,11 @@
                       <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton4" min="-2" pref="77" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="12" max="32767" attributes="0"/>
+              <EmptySpace pref="23" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -86,7 +86,7 @@
                   <Component id="jLabel4" min="-2" pref="23" max="-2" attributes="0"/>
                   <Component id="Result" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="64" max="32767" attributes="0"/>
+              <EmptySpace pref="65" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -95,21 +95,33 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="1"/>
+          <Font name="Tahoma" size="24" style="1"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="0" red="0" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Calculator"/>
+        <Property name="text" type="java.lang.String" value="Simple Calculator"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Sylfaen" size="11" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Enter No. 1"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Sylfaen" size="11" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Enter No. 2"/>
       </Properties>
     </Component>
@@ -119,7 +131,13 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Calculate Sum"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" Addition"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
@@ -127,6 +145,12 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="78" green="78" red="78" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="3"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Result"/>
       </Properties>
     </Component>
@@ -134,6 +158,12 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="ff" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="3"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Subtraction"/>
       </Properties>
       <Events>
@@ -142,6 +172,12 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="3"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Multiplication"/>
       </Properties>
       <Events>
@@ -150,6 +186,12 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton4">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="3"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Division"/>
       </Properties>
       <Events>

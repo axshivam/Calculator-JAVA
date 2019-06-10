@@ -40,23 +40,33 @@ public class Claculator extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 204));
-        jLabel1.setText("Calculator");
+        jLabel1.setText("Simple Calculator");
 
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 11)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 153));
         jLabel2.setText("Enter No. 1");
 
+        jLabel3.setFont(new java.awt.Font("Sylfaen", 1, 11)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 153));
         jLabel3.setText("Enter No. 2");
 
-        jButton1.setText("Calculate Sum");
+        jButton1.setBackground(new java.awt.Color(255, 0, 0));
+        jButton1.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
+        jButton1.setText(" Addition");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
+        jLabel4.setBackground(new java.awt.Color(120, 120, 120));
+        jLabel4.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         jLabel4.setText("Result");
 
+        jButton2.setBackground(new java.awt.Color(0, 255, 0));
+        jButton2.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         jButton2.setText("Subtraction");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -64,6 +74,8 @@ public class Claculator extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(0, 0, 255));
+        jButton3.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         jButton3.setText("Multiplication");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,6 +83,8 @@ public class Claculator extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setBackground(new java.awt.Color(0, 255, 255));
+        jButton4.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         jButton4.setText("Division");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,9 +119,9 @@ public class Claculator extends javax.swing.JFrame {
                         .addComponent(jButton2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton3)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton4)))
-                .addContainerGap(12, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(23, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -132,7 +146,7 @@ public class Claculator extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Result, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(64, Short.MAX_VALUE))
+                .addContainerGap(65, Short.MAX_VALUE))
         );
 
         pack();
